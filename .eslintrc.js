@@ -31,8 +31,9 @@ module.exports = {
   rules: {
     'vue/multi-word-component-names': 0,
     'vue/valid-template-root': 0,
-    indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
+    'no-console': 'warn',
+    indent: ['error', 2],
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
   },

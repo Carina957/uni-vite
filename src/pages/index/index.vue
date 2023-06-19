@@ -5,7 +5,7 @@
       <text class="title">{{ title }}</text>
     </view>
 
-    <h2>App/count</h2>
+    <h2 class="bg-red-500">App/count</h2>
     <text>{{ count }}</text>
     <button @click="increment">UNIAPP</button>
 

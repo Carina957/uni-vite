@@ -1,6 +1,10 @@
 {
-  "name": "uni-preset-vue",
+  "name": "wisdom-project-app",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "directory": "https://codeup.aliyun.com/619905b6cfe94d7ade4c2e10/wisdomweb/wisdom-project-app.git"
+  },
   "scripts": {
     "dev": "uni",
     "dev:app": "uni -p app",
@@ -39,7 +43,7 @@
     "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
     "lint:eslint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "lint:prettier": "prettier --write .",
-    "ci": "rimraf node_modules && yarn install",
+    "ci": "rimraf node_modules && npm install",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -58,7 +62,6 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080420230531001",
     "@dcloudio/uni-ui": "^1.4.28",
     "vue": "^3.2.45",
-    "vue-i18n": "^9.1.9",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
@@ -73,8 +76,11 @@
     "eslint-plugin-vue": "^9.15.0",
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
     "sass": "^1.63.4",
     "sass-loader": "^13.3.2",
-    "vite": "4.1.4"
+    "vite": "4.1.4",
+    "vite-plugin-windicss": "^1.9.0",
+    "windicss": "^3.5.6"
   }
 }
