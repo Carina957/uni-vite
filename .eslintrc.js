@@ -24,6 +24,10 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['vue'],
+  globals: {
+    uni: true,
+    wx: true,
+  },
   rules: {
     'vue/multi-word-component-names': 0,
     'vue/valid-template-root': 0,
